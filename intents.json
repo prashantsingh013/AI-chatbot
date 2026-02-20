@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Is anyone there?"],
+      "responses": ["Hello! How can I assist you with your college-related queries?", "Hi there! Welcome to our college chatbot.", "Greetings! How can I help you today?"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How can I apply?", "Admission process", "Application procedure", "When do admissions start?", "Enrollment details"],
+      "responses": ["Admissions are open for the upcoming academic year. You can apply online via our website or visit the admission office.", "Please visit our official website's admission section for step-by-step application instructions."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "List of programs", "Available degrees", "Engineering branches", "Computer Science course details"],
+      "responses": ["We offer various undergraduate and postgraduate programs in Engineering, Arts, Science, and Management. Specifically, we have B.Tech in CS, IT, ECE, Mechanical, and Civil.", "Our college provides degrees in B.Tech, M.Tech, MBA, and B.Sc. Check the prospectus for detailed course structures."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "How much does it cost?", "Tuition fees", "Semester fees", "Payment options"],
+      "responses": ["The fee structure varies by course. For B.Tech, it's approximately $2000 per semester. Please contact the accounts department for a detailed breakdown.", "You can find the detailed fee structure on the student portal or the prospectus."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["How are the placements?", "Placement record", "Top recruiters", "Job opportunities", "Average package"],
+      "responses": ["Our college has an excellent placement record with top companies like Google, Microsoft, TCS, and Infosys visiting campus.", "The average package last year was 6 LPA, with the highest being 20 LPA. Our placement cell provides rigorous training."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Is hostel facility available?", "Hostel fees", "Dormitory details", "Accommodation for students"],
+      "responses": ["Yes, we have separate hostels for boys and girls with all modern amenities.", "Hostel fees are charged separately. Rooms are available on a twin-sharing basis."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Library timings", "Do you have a library?", "Books availability", "Digital library"],
+      "responses": ["Our library is open from 8 AM to 8 PM on weekdays. We have a vast collection of books and digital resources.", "Yes, students have access to a fully equipped digital and physical library."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["Contact number", "Email address", "How to reach the college?", "Address"],
+      "responses": ["You can reach us at contact@college.edu or call +1-234-567-890. Our campus is located at 123 Education Lane.", "For official inquiries, please email admin@college.edu."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Thanks for the help"],
+      "responses": ["Goodbye! Have a great day.", "See you soon! Feel free to ask if you have more questions.", "You're welcome! Happy to help."]
+    }
+  ]
+}
